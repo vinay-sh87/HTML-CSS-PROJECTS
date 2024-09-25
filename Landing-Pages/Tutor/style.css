@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f2f2;
+}
+
+header {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 0.2em;
+
+    img {
+        width: 50px;
+    }
+}
+
+header nav {
+    padding-left: 5rem;
+    display: flex;
+    gap: 2rem;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+}
+
+.log-btn {
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #222;
+    border-radius: 50px;
+    letter-spacing: 1px;
+
+}
+
+.log-btn:hover {
+    color: #222;
+    background-color: #fff;
+}
+
+.container {
+    height: 85vh;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    padding: 8rem 4rem;
+}
+
+.left-hero {
+    width: 50%;
+}
+
+.left-hero h1 {
+    font-size: 3rem;
+    text-align: left;
+    line-height: 1.2em;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.right-hero {
+    width: 50%;
+}
+
+.right-hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-hero p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.6px;
+    margin-bottom: 3rem;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+.btn-section .arrow-icon {
+    padding: 8px;
+}
+
+.bottom-boxes {
+    display: flex;
+    height: 26.3vh;
+    width: 100%;
+}
+
+.box-1 {
+    width: 35%;
+    background-color: rgb(161, 79, 238);
+    border-radius: 0 100px 0 100px;
+    display: flex;
+    align-items: center;
+
+    p {
+        text-align: justify;
+        padding: 0 4rem;
+        color: #fff;
+        letter-spacing: 0.6px;
+    }
+}
+
+.box-2 {
+    width: 12%;
+    background-color: rgb(243, 217, 68);
+    border-radius: 1000px;
+}
+
+.box-3 {
+    width: 20%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 100px;
+    }
+}
+
+.box-4 {
+    width: 13%;
+    background-color: rgb(161, 79, 238);
+    border-radius: 100px 0 100px 0;
+}
+
+.box-5 {
+    height: 100%;
+    width: 20%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 100px 100px 100px;
+    }
+
+}
