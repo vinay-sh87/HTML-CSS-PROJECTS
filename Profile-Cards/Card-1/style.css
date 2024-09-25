@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(219, 218, 218);
+}
+.container {
+    width: 25%;
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.upper-part {
+    background: linear-gradient(to bottom, crimson, rgb(112, 2, 24));
+    padding: 5.5rem;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+img {
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    top: -4.5rem;
+    border-radius: 70px;
+    border: 5px solid #fff;
+}
+
+.user-name {
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.user-post {
+    text-align: center;
+    padding: 5px;
+}
+
+.line {
+    border: 2px solid rgb(182, 3, 3);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.details {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+}
+.icons a i{
+    font-size: 1.5rem;
+    color: rgb(182, 3, 3);
+}
